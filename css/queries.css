@@ -1,0 +1,28 @@
+/*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
+@media only screen and (max-width:1200px) {
+    li {
+        text-align: center
+    }
+}
+
+/*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
+@media only screen and (max-width:1023px) {
+    .modal-dialog {
+        margin-top: 200px;
+    }
+}
+
+
+@media only screen and (max-width:767px) {
+    .modal-dialog {
+        text-align: center
+    }
+
+    .btn3 {
+        width: 122px;
+        height: 14px;
+    }
+}
+
+
+@media only screen and (max-width:320px) {}
